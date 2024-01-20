@@ -14,17 +14,14 @@ body {
     	text-align:center;
     	color:blue;
     	font-family:'DancingScriptRegular';
-    	font-size:400%:
-  }
+    	font-size:400%:}
   
   h2, p {
 	padding: 12px;
 	line-height: 2em;}
 }
   i {
-    color:darkgreen;
-  } 
-  
+    color:darkgreen;} 
   a, a:hover, a:visited {
 	color: #665544;
   }
