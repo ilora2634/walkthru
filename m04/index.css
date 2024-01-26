@@ -1,0 +1,58 @@
+h1 {
+   font-family: 'H0bbyofnightRegular';
+   font-weight: normal;
+   font-style: normal;
+    }
+
+* {
+			font-family: Arial, Verdana, sans-serif;
+			color: black;
+			text-align: center;}
+      
+	body {
+	   background-image: url("https://assets.epicurious.com/photos/5f171ab15dbd008b1a5f8ea2/16:9/w_2560%2Cc_limit/KidsBakingBooks_HERO_071620_19811.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+			width: 90%;
+			margin: 0 auto;}
+
+	#content {
+			overflow: auto;}
+      
+	#nav, #feature, #footer {
+			margin: 1%;}
+      
+	.column1, .column2, .column3 {
+			width: 31.3%;
+			float: left;
+			margin: 1%;}
+      
+	.column3 {
+			margin-right: 0%;}
+      
+	li {
+			display: inline;
+			padding: 0.5em;}
+      
+	#nav, #footer {
+			background-color: lightblue;
+			padding: 0.5em 0;}
+      
+	#feature, .article {
+			height: 10em;
+			margin-bottom: 1em;
+			background-color: lightgray;}
+    #feature { 
+            background-image: url("https://assets.bonappetit.com/photos/622f74c9ee5369ff659f96c9/16:9/w_2560%2Cc_limit/Bake%2520It%2520TIll%2520You%2520Make%2520It-Baking-Scale.jpg");
+            background-size:contain;
+            background-position: right;
+            background-repeat:no-repeat;}
+
+    .column1 { 
+      background-color: blue}
+
+    .column2 { 
+      background-color: purple}
+
+    .column3 { 
+      background-color: pink}
