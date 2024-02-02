@@ -1,7 +1,6 @@
-function test() {
-  let answer = prompt("Enter a Number Value");
+  var answer = prompt("Enter a Number Value");
   answer = Number(answer);
-}
+
   var table = answer;             // Unit of table
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
