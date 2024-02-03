@@ -76,37 +76,6 @@ border-top: 1px solid #e1e1e1;
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
 
-form{
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
-}
-
-.form-control{
-  width: 500px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-}
-
-input{
-  height: 40px   
-}
-
-.submit{
-  background: lightblue;
-  border-color: transparent;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  height: 50px;
-  margin-top: 20px;
-}
-
-.submit:hover{
-  background-color: lightgreen;
-  cursor: pointer;
-}
-
 .cleft { float: left; width: 280px; margin: 10px 0; }
 .cright { float: right; width: 280px; margin: 10px 0; }
 
