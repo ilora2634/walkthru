@@ -76,6 +76,22 @@ border-top: 1px solid #e1e1e1;
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .cleft { float: left; width: 280px; margin: 10px 0; }
 .cright { float: right; width: 280px; margin: 10px 0; }
 
